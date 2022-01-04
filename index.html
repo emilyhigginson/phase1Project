@@ -1,7 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>2022 BOOK RECOMMENDATION LIST</title>
         <link rel="stylesheet" href="style.css" />
+        <script defer src="script.js"></script>
     </head>
-    <body></body>
-</html>
+    <body>
+        <header>
+        <h1> 📚RECOMMENDED BOOKS TO READ IN 2022📚 </h1>
+        <h3> Check out Emily's recommended reads for 2022!
+            Click on a book below to find out more...
+        </h3>
+    </header>
+        <div id="book-shelf" class= "shelf">
+         
+            
+          </div>
+
+          <div id="book-info" > 
+            <img class="image" id= "book-picture" src= " " />
+            <h2 class="title" id= "title"> </h2>
+            <h3 class="author" id="author"></h3>
+            <h3 class="description" id="description"></h3>
+          </div>
+          <div id="btn-group">
+            <button id="readButton">
+                Mark as Read ✔️ 
+            </button>
+            <button id="like">
+                Like 👍 </button>
+            <button id= "dislike">
+                Dislike 👎
+            </button>
+        </div>
+        
+            
+        <form id="add-book">
+            <h3>Add a Book </h3>
+            <h4>Have a book you think should join the list? Add it below!</h4>
+          
+            <label for="title">Title: </label>
+            <input type="text" id="new-title" name="title" required/>
+            <label for="author">Author:</label>
+            <input type="text" id="new-author" name="author" required/>
+            <label for="image">Book Cover Image URL: </label>
+            <input type="text" id="new-image" name="image" required/>
+            <label for="description">Description: </label>
+            <input type="text" id="new-description" name="description" required/> 
+          <input type="submit" value="Add Book" />
+        </form>
+    <p> Book images and descriptions credit to goodreads.com </p>
+        
+        </body>
+

@@ -1,0 +1,10 @@
+   make the buttons work 
+   
+   const buttonOne = document.getElementById("readButton")
+            buttonOne.addEventListener('click', function() {
+    document.getElementById("readButton").innerText = "I read this!"
+
+    const buttonTwo = document.querySelector("#like")
+        buttonTwo.addEventListener('click', function() {
+            console.log('like');
+    // document.getElementById("like").innerText = "I liked!"

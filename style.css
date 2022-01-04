@@ -1,3 +1,71 @@
+
+
+header {
+    padding: 0.5rem;
+    width: 100%;
+    color: black;
+    background-color: lightblue;
+    align-items: center;
+  }
 body {
-    background: gray;
+    background: whitesmoke;
+padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', monospace;
+  font-variant: small-caps;
+  
 }
+
+
+#description {
+    width: 614px;
+    margin: 20px auto 0;
+    font-variant: normal;
+    font-weight: lighter;
+}
+
+#book-shelf img {
+    flex: 0 1 auto;
+    height: 250px;
+    margin-right: 1rem;
+    border: 5px ;
+   
+    border-color: black;
+    cursor: pointer;
+    
+   
+  }
+  .shelf {
+    background-image: url("https://images.unsplash.com/photo-1597113366853-fea190b6cd82?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80");
+ height: 300px;
+ width: 2000px;
+   
+  }
+  #add-book {
+      display: inline-block
+  }
+  #btn-group button {
+      display: inline-block;
+      
+  }
+  #like {
+      cursor: pointer;
+      color: white;
+      background-color: rgb(102, 184, 211);
+    }
+    #dislike {
+        cursor: pointer;
+        color: white;
+        background-color: rgb(102, 184, 211);
+      }
+      #readButton {
+        cursor: pointer;
+        color: white;
+        background-color: rgb(102, 184, 211);
+      }
+    
+    
